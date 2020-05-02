@@ -24,12 +24,13 @@ app.get("/", function(req, res, next){
 app.get("/docs", function(req, res, next){
   const body = `
   <h1>Food Ordering</h1>
-
+  
+  <h5>Request Token (POST): <code>/request-token</code></h5>
+  
   <h2>Authentication</h2>
 
   <p>Authentication : Basic (token) </p>
 
-  <h5>Request Token (POST): <code>/request-token</code></h5>
   <h5>Get all orders (GET):<code>/orders</code></h5>
   <h5>New order (POST):<code>/new_order</code></h5>
   <pre>
